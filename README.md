@@ -69,8 +69,8 @@ pinned: false
 ### **Local Development**
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-ticket-bot.git
-cd ai-ticket-bot
+https://github.com/RohithCherukuri816/AI-Customer-Ticket-Resolution-Bot.git
+cd AI-Customer-Ticket-Resolution-Bot
 
 # Install dependencies
 pip install -r requirements.txt
@@ -309,4 +309,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Built with ❤️ for automated customer support**
 
 *Last updated: August 2024* 
+
 
