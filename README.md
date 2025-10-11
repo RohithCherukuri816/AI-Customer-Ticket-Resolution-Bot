@@ -1,45 +1,85 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=🎫%20AI%20Ticket%20Resolution&fontSize=35&fontAlignY=40&animation=fadeIn&desc=Automated%20Support%20%7C%20Freshdesk%20Integration%20%7C%20RAG%20System&descAlignY=65&descSize=16" />
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=059669&center=true&vCenter=true&width=800&lines=🤖+AI-Powered+Support+Automation;🎯+Smart+Ticket+Classification;🔍+RAG-Based+Knowledge+Retrieval;⚡+Real-time+Resolution+System" alt="Typing SVG" />
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Powered-059669?style=for-the-badge&logo=brain&logoColor=white" alt="AI Powered" />
+  <img src="https://img.shields.io/badge/Freshdesk-Integration-FF6B6B?style=for-the-badge&logo=freshdesk&logoColor=white" alt="Freshdesk" />
+  <img src="https://img.shields.io/badge/RAG-System-4F46E5?style=for-the-badge&logo=search&logoColor=white" alt="RAG System" />
+  <img src="https://img.shields.io/badge/Gradio-Interface-FF9500?style=for-the-badge&logo=gradio&logoColor=white" alt="Gradio" />
+</p>
+
+<p align="center">
+  <a href="https://huggingface.co/spaces/vinayabc1824/AI-Customer-Ticket-Resolution-Bot">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Try_Now-059669?style=for-the-badge&logo=rocket&logoColor=white" alt="Live Demo" />
+  </a>
+  <img src="https://img.shields.io/github/stars/yourusername/ai-ticket-resolution?style=social" alt="GitHub stars" />
+</p>
+
 ---
-Title: AI Customer Ticket Resolution Bot
-sdk: gradio
-sdk_version: 4.7.1
-app_file: app.py
-pinned: false
----
 
-#  AI Customer Ticket Resolution Bot
+### 🌟 Real-time AI-powered customer support automation with Freshdesk integration and robust fallback systems
 
-**Real-time AI-powered customer support automation with Freshdesk integration and robust fallback systems**
-
-## 🚀 **Live Demo**
-**[Deployed on Hugging Face Spaces](https://huggingface.co/spaces/vinayabc1824/AI-Customer-Ticket-Resolution-Bot)**
+</div>
 
 ---
 
-## ✨ **Features**
+<div align="center">
 
-### 🤖 **AI-Powered Classification**
-- **Smart Tier Classification:** Automatically categorizes tickets into Tier 1, Tier 2, or Complex
-- **Keyword-Based Fallback:** Robust classification even when advanced models fail
-- **Confidence Scoring:** Provides confidence levels for each classification
-- **Category Detection:** Identifies ticket categories (password reset, billing, technical, etc.)
+## ✨ Features & Capabilities
 
-### 🔍 **Retrieval-Augmented Generation (RAG)**
-- **Semantic Search:** Uses sentence transformers for intelligent document retrieval
-- **Keyword Fallback:** Simple keyword matching when embeddings aren't available
-- **Knowledge Base Integration:** Searches through internal documentation
-- **Contextual Responses:** Generates relevant responses based on found information
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 
-### 🔗 **Freshdesk Integration**
-- **Webhook Support:** Real-time ticket processing via Freshdesk webhooks
-- **REST API Integration:** Direct communication with Freshdesk API
-- **HMAC Verification:** Secure webhook signature verification
-- **Automatic Responses:** Posts AI-generated responses back to tickets
+</div>
 
-### 🛡️ **Robust Architecture**
-- **Graceful Fallbacks:** Works even when AI models fail to load
-- **Error Recovery:** Multiple fallback mechanisms for reliability
-- **Compatibility:** Optimized for Hugging Face Spaces deployment
-- **Stable Dependencies:** Carefully selected versions for maximum compatibility
+<table>
+<tr>
+<td align="center" width="50%">
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100"><br>
+<h3>🤖 AI-Powered Classification</h3>
+<ul align="left">
+<li><b>Smart Tier Classification:</b> Auto-categorizes tickets into Tier 1, 2, or Complex</li>
+<li><b>Keyword-Based Fallback:</b> Robust classification when models fail</li>
+<li><b>Confidence Scoring:</b> Provides confidence levels for each classification</li>
+<li><b>Category Detection:</b> Identifies ticket types (password, billing, technical)</li>
+</ul>
+</td>
+<td align="center" width="50%">
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7763.gif" width="100"><br>
+<h3>🔍 RAG System</h3>
+<ul align="left">
+<li><b>Semantic Search:</b> Sentence transformers for intelligent retrieval</li>
+<li><b>Keyword Fallback:</b> Simple matching when embeddings unavailable</li>
+<li><b>Knowledge Base:</b> Searches through internal documentation</li>
+<li><b>Contextual Responses:</b> Generates relevant responses from found info</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100"><br>
+<h3>🔗 Freshdesk Integration</h3>
+<ul align="left">
+<li><b>Webhook Support:</b> Real-time ticket processing</li>
+<li><b>REST API:</b> Direct communication with Freshdesk</li>
+<li><b>HMAC Verification:</b> Secure webhook signatures</li>
+<li><b>Auto Responses:</b> Posts AI-generated replies back</li>
+</ul>
+</td>
+<td align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100"><br>
+<h3>🛡️ Robust Architecture</h3>
+<ul align="left">
+<li><b>Graceful Fallbacks:</b> Works when AI models fail</li>
+<li><b>Error Recovery:</b> Multiple fallback mechanisms</li>
+<li><b>HF Compatibility:</b> Optimized for Spaces deployment</li>
+<li><b>Stable Dependencies:</b> Carefully selected versions</li>
+</ul>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -304,11 +344,66 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Gradio** for the beautiful UI framework
 - **FastAPI** for the high-performance web framework
 
+<div align="center">
+
 ---
 
-**Built with ❤️ for automated customer support**
+## 🤝 Contributing
 
-*Last updated: August 2024* 
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100">
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+<table>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/Issues-Welcome-brightgreen?style=for-the-badge&logo=github" /><br>
+<b>Report Bugs</b>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/PRs-Welcome-blue?style=for-the-badge&logo=git" /><br>
+<b>Submit PRs</b>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Ideas-Welcome-purple?style=for-the-badge&logo=lightbulb" /><br>
+<b>Share Ideas</b>
+</td>
+</tr>
+</table>
+
+## 📊 Project Stats
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=yourusername&repo=ai-ticket-resolution&show_icons=true&theme=radical" alt="GitHub Stats" />
+</div>
+
+## 📄 License
+
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="MIT License" />
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+
+### 💜 Built with ❤️ by Rohith Cherukuri
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="500">
+
+
+**⭐ Star this repo if you found it helpful!**
+
+*Last updated: August 2024*
+
+</div>
+
+---
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+</div> 
+
 
 
 
