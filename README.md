@@ -1,8 +1,19 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=🎨%20Doodle%20Recognition%20%26%20Styling&fontSize=35&fontAlignY=40&animation=fadeIn&desc=AI-Powered%20Sketch%20to%20Realistic%20Art%20%7C%20100%2B%20Categories%20%7C%2087%25%20Accuracy&descAlignY=65&descSize=16" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Doodle%20Recognition%20and%20Styling&fontSize=40&fontAlignY=35&animation=twinkling&fontColor=fff&desc=AI-Powered%20Sketch%20to%20Realistic%20Art%20Transformation&descAlignY=55&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=800&lines=🤖+AI-Powered+Doodle+Recognition;🎨+Realistic+Art+Transformation;🔍+100%2B+Category+Classification;⚡+Real-time+Style+Application" alt="Typing SVG" />
+<br/>
+
+<!-- Project Title -->
+<h1>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=45&duration=2000&pause=500&color=F75C7E&center=true&vCenter=true&width=800&lines=🎨+Doodle+Recognition+%26+Styling" alt="Project Title" />
+</h1>
+
+<h3>✨ Transform Your Sketches into Stunning Realistic Art with AI ✨</h3>
+
+<br/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=059669&center=true&vCenter=true&width=800&lines=🤖+AI-Powered+Doodle+Recognition;🎨+Realistic+Art+Transformation;🔍+100%2B+Category+Classification;⚡+Real-time+Style+Application;🎯+87%25+Accuracy+%7C+96%25+Top-3" alt="Typing SVG" />
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI-Powered-059669?style=for-the-badge&logo=brain&logoColor=white" alt="AI Powered" />
