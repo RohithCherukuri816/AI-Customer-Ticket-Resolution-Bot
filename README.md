@@ -495,20 +495,6 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment guide.
 
 ---
 
-## 📚 Documentation
-
-### Core Documentation
-- **[Quick Reference](QUICK_REFERENCE.md)** - Developer quick reference card
-- **[Migration Guide](MIGRATION_GUIDE.md)** - Migrating to v2.0
-- **[Improvements Summary](IMPROVEMENTS_SUMMARY.md)** - Refactoring overview
-- **[Documentation Index](DOCUMENTATION_INDEX.md)** - Complete documentation guide
-
-### Additional Resources
-- **[Deployment Guide](DEPLOYMENT.md)** - Production deployment
-- **[Refactoring Plan](.agent/refactoring_plan.md)** - Architecture strategy
-
----
-
 ## 🧪 Testing
 
 ### Interactive Testing
