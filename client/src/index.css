@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased font-sans selection:bg-indigo-500 selection:text-white min-h-screen relative overflow-x-hidden;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Keyframe Animations */
+@keyframes floatOrb1 {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -40px) scale(1.08);
+  }
+  66% {
+    transform: translate(-25px, 25px) scale(0.95);
+  }
+}
+
+@keyframes floatOrb2 {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(-35px, 30px) scale(0.92);
+  }
+  66% {
+    transform: translate(25px, -35px) scale(1.06);
+  }
+}
+
+@keyframes floatOrb3 {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  50% {
+    transform: translate(40px, 35px) scale(1.1);
+  }
+}
+
+@keyframes shimmerSweep {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(150%);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.03);
+  }
+}
+
+/* Subtle Animated Background Grid Pattern */
+.bg-grid-pattern {
+  background-image: radial-gradient(rgba(99, 102, 241, 0.08) 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
+}
+
+/* Floating Ambient Gradient Orbs */
+.orb-1 {
+  animation: floatOrb1 16s ease-in-out infinite;
+}
+
+.orb-2 {
+  animation: floatOrb2 20s ease-in-out infinite;
+}
+
+.orb-3 {
+  animation: floatOrb3 18s ease-in-out infinite;
+}
+
+/* Beautiful Animated Cards */
+.pretty-card {
+  @apply bg-white/90 backdrop-blur-md border border-slate-200/90 rounded-2xl shadow-sm transition-all duration-300 ease-out;
+  position: relative;
+}
+
+.pretty-card:hover {
+  @apply -translate-y-1 border-indigo-300 shadow-xl shadow-indigo-500/10;
+}
+
+.pretty-card-active {
+  @apply border-indigo-400 ring-2 ring-indigo-500/10 shadow-lg shadow-indigo-500/10;
+}
+
+/* Animated Interactive Buttons */
+.animated-btn {
+  @apply relative overflow-hidden transition-all duration-200 active:scale-95 shadow-md shadow-indigo-600/20;
+}
+
+.animated-btn::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.25) 50%,
+    transparent 70%
+  );
+  transform: translateX(-150%);
+  transition: none;
+}
+
+.animated-btn:hover::after {
+  animation: shimmerSweep 1.2s ease-in-out;
+}
+
+.animated-btn-subtle {
+  @apply transition-all duration-200 hover:-translate-y-0.5 active:scale-95;
+}
+
+/* Clean Custom Scrollbar for Light Theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+  transition: background 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #818cf8;
+}

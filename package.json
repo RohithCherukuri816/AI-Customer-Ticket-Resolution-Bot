@@ -1,0 +1,24 @@
+{
+  "name": "ai-customer-ticket-resolution-bot-mern",
+  "version": "2.0.0",
+  "description": "Enterprise AI Customer Ticket Resolution & Support Automation System - Full MERN Stack Major Project",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "seed": "npm run seed --prefix server",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "node run-all.js"
+  },
+  "keywords": [
+    "mern",
+    "ai",
+    "customer-support",
+    "nlp",
+    "rag",
+    "ticket-resolution",
+    "automation",
+    "socketio"
+  ],
+  "author": "Rohit",
+  "license": "MIT"
+}

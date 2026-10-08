@@ -1,6 +1,5 @@
 # Documentation (except README)
-*.md
-!README.md
+
 
 # Python
 __pycache__/
@@ -71,3 +70,4 @@ models/
 *.temp
 temp/
 tmp/
+myenv/
